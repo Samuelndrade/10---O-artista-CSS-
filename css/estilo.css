@@ -1,10 +1,105 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Poppins&display=swap');
 
 body {
-  font-family: 'Poppins';
+  font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Cor de fundo escura */
+    color: #fff; /* Texto branco */
 }
 
-header, #principal, #second, #contato, #stream {
+header {
+  display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #111; /* Fundo mais escuro */
+      }
+    
+header h1 {
+        font-size: 24px;
+        color: #fff;
+    }
+
+nav a {
+      text-decoration: none;
+      color: #fff;
+      margin-left: 20px;
+      font-size: 16px;
+  }
+
+nav a:hover {
+    color: #ff6666;
+}
+
+.artist-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: #444;
+}
+
+.artist-section img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin-right: 40px;
+}
+
+.artist-section .bio {
+  max-width: 600px;
+  text-align: justify;
+}
+
+.artist-section .bio h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.artist-section .bio p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+  background-color: #222;
+}
+
+.gallery img {
+  width: 250px;
+  height: auto;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #111;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 10px 0;
+  color: #ccc;
+}
+
+footer .social-icons {
+  margin-top: 10px;
+}
+
+footer .social-icons a {
+  text-decoration: none;
+  color: #fff;
+  margin: 0 10px;
+  font-size: 24px;
+}
+
+footer .social-icons a:hover {
+  color: #ff6666; /* Efeito hover nas redes sociais */
+}
+#principal, #second, #contato, #stream {
 	
 }
 
